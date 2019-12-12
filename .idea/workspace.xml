@@ -7,26 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc505ef8-94ea-47ad-a890-c2e122c9fadb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Epam_servlets.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlets/Servlets.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlets/src/RestaurantServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlets/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlets/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlets/web/table.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servlets/RestaurantServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/by/bsuir/Yuzhik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/by/bsuir/Yuzhik/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RestaurantServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RestaurantServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/bsuir/Yuzhik/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bsuir/Yuzhik/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/table.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/bsuir/Yuzhik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bsuir/Yuzhik/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1150748" />
@@ -254,6 +242,10 @@
       <workItem from="1576002999878" duration="23425000" />
       <workItem from="1576076441745" duration="1304000" />
       <workItem from="1576081748105" duration="143000" />
+      <workItem from="1576095106526" duration="9311000" />
+      <workItem from="1576106202459" duration="756000" />
+      <workItem from="1576108983078" duration="1308000" />
+      <workItem from="1576110571829" duration="820000" />
     </task>
     <servers />
   </component>

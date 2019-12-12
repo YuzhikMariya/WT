@@ -1,5 +1,6 @@
 import by.bsuir.Yuzhik.model.XMLToRestaurant.DomHandler;
 import by.bsuir.Yuzhik.model.XMLToRestaurant.SaxParser;
+import by.bsuir.Yuzhik.model.XMLToRestaurant.StaxHandler;
 import by.bsuir.Yuzhik.model.entity.RestaurantWrapper;
 
 import javax.servlet.RequestDispatcher;
@@ -40,6 +41,18 @@ public class RestaurantServlet extends HttpServlet {
                 }
                 break;
             case "stax":
+                StaxHandler staxHandler = new StaxHandler();
+                try{
+                    RestaurantWrapper rest = staxHandler.parse(path);
+                    request.setAttribute("dishes", rest.getDishes());
+                    request.setAttribute("orders", rest.getOrders());
+                    request.setAttribute("employees", rest.getEmployees());
+                    RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/table.jsp");
+                    dispatcher.forward(request,response);
+                }
+                catch (Exception e){
+                    out.println("Error");
+                }
                 break;
             case "dom":
                 DomHandler domHandler = new DomHandler();

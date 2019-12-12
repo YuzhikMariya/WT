@@ -10,6 +10,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Title</title>
@@ -21,13 +22,12 @@
             <th align="left" width="100">Title</th>
             <th align="center" width="100">Table number</th>
         </tr>
-        <%	ArrayList<Dish> d = (ArrayList) request.getAttribute("dishes");
-            for (Dish row : d) { %>
-        <tr>
-            <td><%= row.getTitle() %></td>
-            <td align="center"><%= row.getTableNumber() %></td>
-        </tr>
-        <%	} %>
+        <c:forEach var="d" items="${dishes}" >
+            <tr>
+                <td><c:out value="${d.getTitle()}"/></td>
+                <td align="center"><c:out value="${d.getTableNumber()}"/></td>
+            </tr>
+        </c:forEach>
     </table>
     <br />
     <table>
@@ -38,15 +38,14 @@
             <th align="center" width="100">Price</th>
             <th align="center" width="100">Time</th>
         </tr>
-        <%	ArrayList<Order> o = (ArrayList) request.getAttribute("orders");
-            for (Order row : o) { %>
-        <tr>
-            <td><%= row.getTitle() %></td>
-            <td align="center" ><%= row.getTableNumber() %></td>
-            <td align="center" ><%= row.getPrice() %></td>
-            <td align="center" ><%= row.getTime() %></td>
-        </tr>
-        <%	} %>
+        <c:forEach var="o" items="${orders}" >
+            <tr>
+                <td><c:out value="${o.getTitle()}"/></td>
+                <td align="center"><c:out value="${o.getTableNumber()}"/></td>
+                <td align="center"><c:out value="${o.getPrice()}"/></td>
+                <td align="center"><c:out value="${o.getTime()}"/></td>
+            </tr>
+        </c:forEach>
     </table>
     <br />
     <table>
@@ -58,16 +57,15 @@
             <th align="center" width="120">Category</th>
             <th align="center" width="120">Birthday</th>
         </tr>
-        <%	ArrayList<Employee> e = (ArrayList) request.getAttribute("employees");
-            for (Employee row : e) { %>
-        <tr>
-            <td><%= row.getName() %></td>
-            <td align="center"><%= row.getSurname() %></td>
-            <td align="center"><%= row.getAge() %></td>
-            <td align="center"><%= row.getCategory() %></td>
-            <td align="center"><%= row.getDob() %></td>
-        </tr>
-        <%	} %>
+        <c:forEach var="e" items="${employees}" >
+            <tr>
+                <td><c:out value="${e.getName()}"/></td>
+                <td align="center"><c:out value="${e.getSurname()}"/></td>
+                <td align="center"><c:out value="${e.getAge()}"/></td>
+                <td align="center"><c:out value="${e.getCategory()}"/></td>
+                <td align="center"><c:out value="${e.getDob()}"/></td>
+            </tr>
+        </c:forEach>
     </table>
 </body>
 </html>
