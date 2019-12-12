@@ -2,47 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Servlets:war exploded" />
+      <artifact name="javaxservletapi:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc505ef8-94ea-47ad-a890-c2e122c9fadb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Epam_servlets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/by/bsuir/Yuzhik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/by/bsuir/Yuzhik/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RestaurantServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RestaurantServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/bsuir/Yuzhik/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/bsuir/Yuzhik/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/table.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/bsuir/Yuzhik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/bsuir/Yuzhik/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="6c809629-102a-4c99-8299-ebc9ecfb00bf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
       </list>
@@ -51,12 +24,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -64,21 +31,21 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1TfKG4qnn5C5mn6UeZNvujvO8Xv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Usrrl1NVSS39l8ASMfubn0GTOO" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jstl-1.2.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.1150748" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.22758621" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,56 +59,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.49">
-    <configuration name="DataBaseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.Yuzhik.model.DB.DataBaseClass" />
-      <module name="Epam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsuir.Yuzhik.model.DB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.Yuzhik.Main" />
-      <module name="Epam_servlets" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsuir.Yuzhik.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SaxParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.Yuzhik.model.XMLToRestaurant.SaxParser" />
-      <module name="Epam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.bsuir.Yuzhik.model.XMLToRestaurant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Servlets:war exploded">
+        <artifact name="javaxservletapi:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_49_Restaurant_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_javaxservletapi" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -149,7 +78,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63210" />
+        <option name="DEBUG_PORT" value="57605" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -199,70 +128,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Servlets:war exploded" />
+          <artifact name="javaxservletapi:war exploded" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.DataBaseClass" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SaxParser" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DataBaseClass" />
-        <item itemvalue="Application.SaxParser" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc505ef8-94ea-47ad-a890-c2e122c9fadb" name="Default Changelist" comment="" />
-      <created>1573845610883</created>
+      <changelist id="6c809629-102a-4c99-8299-ebc9ecfb00bf" name="Default Changelist" comment="" />
+      <created>1576156344593</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573845610883</updated>
-      <workItem from="1573845612514" duration="1174000" />
-      <workItem from="1573847247710" duration="1606000" />
-      <workItem from="1573850640917" duration="14361000" />
-      <workItem from="1573879455770" duration="1673000" />
-      <workItem from="1573895273347" duration="5695000" />
-      <workItem from="1574018343932" duration="8164000" />
-      <workItem from="1574032984425" duration="195000" />
-      <workItem from="1574034549845" duration="3268000" />
-      <workItem from="1574100204897" duration="2080000" />
-      <workItem from="1574109374314" duration="4551000" />
-      <workItem from="1574115732920" duration="10000" />
-      <workItem from="1576002917252" duration="43000" />
-      <workItem from="1576002999878" duration="23425000" />
-      <workItem from="1576076441745" duration="1304000" />
-      <workItem from="1576081748105" duration="143000" />
-      <workItem from="1576095106526" duration="9311000" />
-      <workItem from="1576106202459" duration="756000" />
-      <workItem from="1576108983078" duration="1308000" />
-      <workItem from="1576110571829" duration="820000" />
+      <updated>1576156344593</updated>
+      <workItem from="1576156346009" duration="11158000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
