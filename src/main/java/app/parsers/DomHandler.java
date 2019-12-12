@@ -14,8 +14,11 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import org.apache.log4j.Logger;
 
 public class DomHandler {
+
+    private static final Logger logger = Logger.getLogger(DomHandler.class);
 
     private ArrayList<Order> orderList = new ArrayList<Order>();
     private ArrayList<Dish> dishList = new ArrayList<Dish>();
@@ -93,7 +96,7 @@ public class DomHandler {
             restaurantWrapper.setOrders(orderList);
             restaurantWrapper.setDishes(dishList);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Parse error", e);
         }
         return restaurantWrapper;
     }

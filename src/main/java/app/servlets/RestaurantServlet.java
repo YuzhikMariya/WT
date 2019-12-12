@@ -4,6 +4,7 @@ import app.entity.RestaurantWrapper;
 import app.parsers.DomHandler;
 import app.parsers.SaxParser;
 import app.parsers.StaxHandler;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,6 +17,9 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "/RestaurantServlet", urlPatterns = {"/RestaurantServlet"})
 public class RestaurantServlet extends HttpServlet {
+
+    private static final Logger logger = Logger.getLogger(RestaurantServlet.class);
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request, response);
     }
@@ -33,7 +37,7 @@ public class RestaurantServlet extends HttpServlet {
             try {
                 rest = saxParser.saxPars(path);
             } catch (Exception e) {
-                out.println("Error");
+                logger.error("Sax parse error", e);
             }
         } else if ("stax".equals(parser)) {
                 StaxHandler staxHandler = new StaxHandler();
@@ -41,7 +45,7 @@ public class RestaurantServlet extends HttpServlet {
                     rest = staxHandler.parse(path);
                 }
                 catch (Exception e){
-                    out.println("Error");
+                    logger.error("Stax parse error", e);
                 }
         } else if ("dom".equals(parser)) {
                 DomHandler domHandler = new DomHandler();
@@ -49,7 +53,7 @@ public class RestaurantServlet extends HttpServlet {
                     rest = domHandler.parse(path);
                 }
                 catch (Exception e){
-                    out.println("Error");
+                    logger.error("Dom parse error", e);
                 }
         }
         request.setAttribute("dishes", rest.getDishes());

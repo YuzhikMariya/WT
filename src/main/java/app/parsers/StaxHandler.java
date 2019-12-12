@@ -4,6 +4,7 @@ import app.entity.Dish;
 import app.entity.Employee;
 import app.entity.Order;
 import app.entity.RestaurantWrapper;
+import org.apache.log4j.Logger;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
@@ -16,6 +17,8 @@ import java.util.ArrayList;
 
 public class StaxHandler {
 
+    private static final Logger logger = Logger.getLogger(StaxHandler.class);
+
     public RestaurantWrapper parse(String path) throws FileNotFoundException {
         XMLInputFactory inputFactory = XMLInputFactory.newInstance();
         RestaurantWrapper restaurantWrapper = new RestaurantWrapper();
@@ -25,7 +28,7 @@ public class StaxHandler {
             restaurantWrapper = process(reader);
 
         } catch (XMLStreamException e) {
-            e.printStackTrace();
+            logger.error("Parse error", e);
         }
         return restaurantWrapper;
     }

@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c809629-102a-4c99-8299-ebc9ecfb00bf" name="Default Changelist" comment="" />
+    <list default="true" id="6c809629-102a-4c99-8299-ebc9ecfb00bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/parsers/DomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/parsers/DomHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/parsers/StaxHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/parsers/StaxHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/RestaurantServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/RestaurantServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/parsers/DomHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/parsers/DomHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/parsers/StaxHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/parsers/StaxHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/RestaurantServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/RestaurantServlet.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jstl-1.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-logging-log4j.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22758621" />
@@ -144,10 +152,22 @@
       <option name="presentableId" value="Default" />
       <updated>1576156344593</updated>
       <workItem from="1576156346009" duration="11158000" />
+      <workItem from="1576178658486" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
